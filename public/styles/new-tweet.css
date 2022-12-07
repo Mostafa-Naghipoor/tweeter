@@ -1,0 +1,35 @@
+.new-tweet {
+    margin: auto;
+}
+hr {
+    border-style: solid;
+    border-top:none;
+    border-width: 3px;
+   
+}
+.submit-tweet{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bungee', cursive;
+
+}
+.tweetbutton{
+    background-color: #196ba0 ;
+    color: aliceblue;
+}
+.wayha{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+textarea {
+    margin-top: 20px;
+    border: none;
+    background-color: #f4f1ec;
+    border-bottom: 4px #545149 solid;
+    height: 40px;
+    width: 100%;
+    resize: none;
+    font-weight: bold;
+    color: #545149;
+}
