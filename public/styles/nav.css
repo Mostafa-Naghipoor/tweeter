@@ -1,22 +1,39 @@
-nav { 
-    height: 120px;
+nav {
+    height: 90px;
     width: 100%;
     background-color: #4056A1;
-    color: #FFFFFF;
-    position: fixed;
-    padding: 1.5em;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
-
-}
-.tweeter {
-    font-family: 'Bungee', cursive;
-}
-.nav-link {
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  nav span {
+    font-family: 'Bungee', sans-serif;
+    margin: 1.5em;
+    margin-left: 2%;
+    font-size: 1.5em;
+  }
+  
+  #writeNewText {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-family: sans-serif;
-
-}
+    margin: 1.5em;
+    margin-right: 2%;
+    font-size: 1em;
+  }
+  
+  #writeNewText * {
+    margin: 0;
+  }
+  
+  #writeNewText i {
+    margin-top: 3px;
+  }
+  
+  #arrow-down {
+    color: red;
+  }
