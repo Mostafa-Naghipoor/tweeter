@@ -14,26 +14,27 @@ $(function () {
   
   const createTweetElement = function(tweet){
     let tweet = `
-        <article class="all-tweets-container">
-            <header class="tweet-header">
-                <div class="user">
-                    <img src="${tweet.user.avatars}" alt="profile-picture">
-                    <p>${tweet.user.handle}</p>
-                </div>
-                <p>${tweet.user.name}</p>
-            </header>
-            <h2> ${tweet.content.text}</h2>
-            <hr>
-            <footer>
-            <p>${moment(tweet.created_at).fromNow()}</p>
-                <div>
-                    <a href=""> <i class="fa-sharp fa-solid fa-flag"></i></a>
-                    <a href=""> <i class="fa-solid fa-arrows-rotate"></i></a>
-                    <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
-            
-                </div>
-            </footer>
-        </article>`;
+        <article class="tweets">
+        <header class="tweet-container">
+        <div class="tweet-header">
+            <img src="${tweet.user.avatars}" />
+            <p>${tweet.user.name}</p>
+        </div>
+        <p class="user-tag">${tweet.user.handle}</p>
+        </header>
+        <div class="tweet-container">
+        <p class="content">${escape(tweet.content.text)}</p>
+        </div>
+        <footer class="tweet-container">
+        <p>${moment(tweet.created_at).fromNow()}</p>
+        <div>
+            <i class="far fa-flag" id="flag"></i>
+            <i class="far fa-heart" id="heart"></i>
+            <i class="fas fa-retweet" id="retweet"></i>
+        </div>
+        </footer>
+    </article>
+    `;
     return tweet;   
   }
   const loadTweets = function () {
