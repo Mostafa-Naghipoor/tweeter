@@ -1,35 +1,69 @@
-.new-tweet {
+.new-tweet{
     margin: auto;
 }
-hr {
+hr{
     border-style: solid;
-    border-top:none;
-    border-width: 3px;
-   
+    border-bottom: none;
+    border-width: 5px;
 }
 .submit-tweet{
     display: flex;
     justify-content: space-between;
     font-family: 'Bungee', cursive;
+}
+.tweet-button{
+    background-color: #4056A1;
+    color: white;
 
 }
-.tweetbutton{
-    background-color: #196ba0 ;
-    color: aliceblue;
-}
-.wayha{
-    font-weight: bold;
+.label-tweet{
     font-family: sans-serif;
 }
-
 textarea {
     margin-top: 20px;
     border: none;
     background-color: #f4f1ec;
-    border-bottom: 4px #545149 solid;
+    border-bottom: 4px #aeb17d solid;
     height: 40px;
     width: 100%;
     resize: none;
     font-weight: bold;
     color: #545149;
+}
+
+.all-tweets-container {
+    border: solid black;
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+}
+.all-tweets-container:hover{
+    box-shadow: 0px 0px 8px 8px rgb(164, 181, 143);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.fa-regular {
+    padding-right: 10%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tweet-ID {
+    color: #545149;
+
+}
+.fa-solid:hover {
+    color: #5ed920;
 }
