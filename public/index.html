@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/nav.css" type="text/css"/>
     <link rel="stylesheet" href="styles/header.css" type="text/css"/>
     <link rel="stylesheet" href="styles/new-tweet.css"type="text/css"/>
+    <link rel="stylesheet" href="styles/tweet.css" type="text/css">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Bungee&family=Flamenco&family=Paytone+One&display=swap" rel="stylesheet">
     <!-- icon -->
@@ -55,14 +56,41 @@
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form action="/tweets" method="POST">
-          <label for="tweet-text" class="wayha">What are you humming about? <hr></label>
+          <label for="tweet-text" class="label-tweet">What are you humming about? <hr></label>
           <textarea name="text" id="tweet-text"></textarea>
           <div class="submit-tweet">
-            <button type="submit" class="tweetbutton">Tweet</button>
+            <button type="submit" class="tweet-button">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
+        <br><br>
+        <article class="all-tweets-container">
+          <header class="tweet-header">
+            <div class="user">
+              <i class="fa-regular fa-face-smile"></i>
+              <p><b>D</b>aniel NP</p>
+            </div>
+            <p id= "s ">
+              @DanielNP
+            </p>
+            
+          </header>
+          <h2> Hello World</h2>
+          <hr>
+          <footer>
+            <p> Ten days ago</p>
+            <div>
+             <a href=""> <i class="fa-sharp fa-solid fa-flag"></i></a>
+             <a href=""> <i class="fa-solid fa-arrows-rotate"></i></a>
+             <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
+          
+            </div>
+          </footer>
+         
+
+        </article>
       </section>
+      <section id="tweets"></section>
     </main>
   </body>
 </html>
