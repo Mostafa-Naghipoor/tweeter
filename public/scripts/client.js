@@ -25,7 +25,7 @@ $(function () {
             <h2> ${tweet.content.text}</h2>
             <hr>
             <footer>
-                <p> ${tweet.created_at}</p>
+            <p>${moment(tweet.created_at).fromNow()}</p>
                 <div>
                     <a href=""> <i class="fa-sharp fa-solid fa-flag"></i></a>
                     <a href=""> <i class="fa-solid fa-arrows-rotate"></i></a>
