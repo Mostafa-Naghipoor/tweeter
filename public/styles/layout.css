@@ -25,6 +25,8 @@ body {
   margin: auto;
   width: 90%;
   background-color:#f4f1ec;
+  display: flex;
+  flex-direction: column;
  
   height: 400px;
 
