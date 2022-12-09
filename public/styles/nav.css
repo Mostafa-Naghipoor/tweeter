@@ -8,6 +8,7 @@ nav {
     align-items: center;
     position: fixed;
     top: 0;
+    font-family: sans-serif;
   }
   
   nav span {
