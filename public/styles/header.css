@@ -1,6 +1,7 @@
 .main-header {
-    color: #FFFFFF;
-    background-color: #d8ef86;
+    color: #534848;
+    background-color: #aab8ed;
+    background-image: url("/images/light-wool.png");
     font-family: 'Source Sans Pro';
     font-size: 1em;
     min-height: 490px;
