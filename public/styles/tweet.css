@@ -58,3 +58,9 @@ article:hover {
     color: #a1caf1;
     display: none;
   }
+  .far:hover {
+    color:#f7c437
+  }
+  .fas:hover {
+    color: #f8c947;
+  }
