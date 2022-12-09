@@ -8,7 +8,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ![hover status](https://github.com/Mostafa-Naghipoor/tweeter/blob/master/docs/hover.png)
 
-[responsive](https://github.com/Mostafa-Naghipoor/tweeter/blob/master/docs/responsive.png)
+![responsive](https://github.com/Mostafa-Naghipoor/tweeter/blob/master/docs/responsive.png)
 
 ## Getting Started
 
